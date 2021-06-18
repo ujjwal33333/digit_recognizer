@@ -229,7 +229,7 @@ $("#predict-button").click(async function () {
 
 	// display the predictions in chart
 	$("#result_box").removeClass('d-none');
-	displayChart(results);
+// 	displayChart(results);
 	displayLabel(results);
 
 	console.log(results);
