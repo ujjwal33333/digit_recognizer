@@ -291,5 +291,5 @@ function displayLabel(data) {
             max = data[i];
         }
     }
-	$(".prediction-text").html("Predicting you draw <b>"+maxIndex+"</b> with <b>"+Math.trunc( max*100 )+"%</b> confidence")
+	$(".prediction-text").html("Prediction:<br> you drew <b>"+maxIndex+"</b> with <br><b>"+Math.trunc( max*100 )+"%</b> confidence")
 }
